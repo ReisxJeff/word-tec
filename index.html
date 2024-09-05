@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Games</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        .card-img-overlay{
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar-nav .nav-link.active{
+            color: #fff;
+        }
+
+        .nav-link{
+            text-align: center;
+        }
+
+        header{
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+    
+    </style>
+</head>
+
+    <header id="cabecalho">
+        <div class="container">
+            <div class="navbar navbar-expand-lg">
+                <h1>Word Tec</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Destaques">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pop">Cultura pop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#games">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tech">Tech</a>
+                        </li>
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Consoles
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Pc</a></li>
+                                <li><a class="dropdown-item" href="#">Playstation 5</a></li>
+                                <li><a class="dropdown-item" href="#">Xbox serios X/S</a></li>
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" class="contaienr">
+        <div class="container">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card w-100">
+                        <img src="https://cinepop.com.br/wp-content/uploads/2024/08/alien-romulus-2.jpg" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">A opinião do diretor de Alien romulus sobre efeitos praticos</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum consequuntur sed sapiente id</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card w-100">
+                        <img src="https://www.otempo.com.br/content/dam/otempo/editorias/tecnologia%20e%20games/2024/5/27/tecnologia%20e%20games-games-1716846050.jpg" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tudo oque se sabe sobre o novo COD</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus quis enim aute</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card w-100">
+                        <img src="https://img.band.uol.com.br/image/2024/08/29/entenda-o-mais-novo-capitulo-da-polemica-entre-elon-musk-e-alexandre-de-moraes-15521_800x450.webp" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tudo sobre o banimento do X no Brasil </h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores est molestias soluta dolore.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+        <div id="Destaques">
+            <h1 class="titulo">Destaques</h1>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card text-bg-dark">
+                        <img class="img-fluid" src="https://cafecomnerd.com.br/wp-content/uploads/2024/08/Secret-Level-Trailer-Prime-Video-nova-serie-animada-ambientada-no-mundo-dos-videogames.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Secret Level</h4>
+                            <h5 class="card-subtitle">Nova série do PrimeVideo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card text-bg-dark">
+                        <img class="img-fluid" src="https://s2-techtudo.glbimg.com/E3kXl2940si8kfbjnb-11NwQQUU=/0x0:695x390/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/8/S/XfKEAITGaqdS3j0BU07g/epic-games-store-nft-blockchain-criptomoeda-steam.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Epic games</h4>
+                            <h5 class="card-subtitle">Jogo de terror AAA gratuito na loja </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card text-bg-dark">
+                        <img class="img-fluid" src="https://cdn.sortiraparis.com/images/80/66131/1104437-silent-hill-2-nouvelle-bande-annonce-pour-le-remake-du-jeu-de-konami.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Silent Hill 2</h4>
+                            <h5 class="card-subtitle">Tudo sobre o novo remake</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section id="pop">
+            <h1>Cultura Pop</h1>
+            <div class="container">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://cinebuzz.com.br/media/_versions/2024/08/2a-temporada-de-os-aneis-de-poder-estreia-no-prime-video_widelg.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Anéis do poder 2° temporada </h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni blanditiis itaque explicabo sunt, voluptatem minus aspernatur quidem quaerat? Sint perferendis corrupti aliquid quidem iste! Est, consequatur. Eaque illo quae quam.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://cdn.oantagonista.com/uploads/2024/06/Pinguim-serie-spin-off-de-Batman-veja-trailer-e-data-de-estreia.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Nova série do Pinguim tem datas dos lançamento dos episódios</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rem perspiciatis fuga. Inventore atque natus quia laudantium similique. Possimus quo eius repellendus odit cumque blanditiis fuga vitae iure inventore dicta!</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3" >
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://i.ytimg.com/vi/PE2YZhcC4NY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBawxYhEPEHRtqOiuvA9UndmYGLHg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Filme de minecraft ou vai ser muito bom ou muito ruim</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente vitae quasi voluptatum cupiditate quibusdam excepturi consequatur sequi quas. Quaerat dicta deleniti obcaecati pariatur! Quia, nostrum recusandae sunt cupiditate est aliquam!</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="games">
+            <h1>Games</h1>
+            <div class="container">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://cdn.autopapo.com.br/box/uploads/2023/12/06131947/poster-gta-6-1-732x488.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Sony pode ter fechado parceria de marketing com Rockstar </h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id excepturi velit nobis assumenda expedita praesentium eos doloremque odit earum debitis eaque, fugit quo magni ad aliquid esse. Hic, animi eius!</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://republicadg.com.br/wp-content/uploads/2022/09/Destiny-Mobile.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">*RUMOR* Destiny pode ter jogo para plataformas mobile </h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi amet molestias, in blanditiis quisquam nam officiis, tempora accusamus fugit necessitatibus iusto delectus culpa. Pariatur ab nemo soluta voluptate eum.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://media.contentapi.ea.com/content/dam/eacom/dragon-age/dragon-age-the-veilguard/common/dragon-age-veilguard-eacom-coming-soon-16x9.jpg.adapt.crop191x100.1200w.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Tudo que sabemos sobre o novo Dragon Age: the veilguard</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="tech">
+            <h1>Tech</h1>
+            <div class="container">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://www.cidademarketing.com.br/marketing/wp-content/uploads/2024/08/melimais_mercadolivre_aumento.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Mercado livre revela novos plaons e valores do meli+</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores ullam vel rem qui. Cum dolorum itaque nulla autem fugiat vel, possimus adipisci perferendis porro eveniet, repudiandae praesentium. Saepe, laboriosam?</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://cdn.mos.cms.futurecdn.net/NktxGqCjm46mCH7yLaJi8R.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Colossus, novo super computador de Elon Musk começa a operar</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quia! Veniam nisi eaque suscipit aperiam dolores. Vel corrupti labore magni adipisci hic. Optio vitae dolorem nesciunt aspernatur excepturi ea accusantium!</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://storage.googleapis.com/production-hostgator-brasil-v1-0-7/137/298137/TkDoR1JK/c3bd4f7566a4476084c3efa656b6ce75" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Novo Windows 11: processadores da AMD terão performace melho</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quasi suscipit. Architecto, atque iusto amet cumque, tempora aliquam ipsum officiis odio modi asperiores deserunt placeat illo fuga, neque dolores cum?</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
